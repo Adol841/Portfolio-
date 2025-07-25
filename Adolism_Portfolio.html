@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-black text-white font-sans antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adolism Motion | Portfolio</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom aspect ratio for 9:16 -->
+    <style>
+      .aspect-9-16 {
+        aspect-ratio: 9 / 16;
+      }
+    </style>
+  </head>
+
+  <body class="min-h-screen bg-black text-white">
+    <main class="max-w-xl mx-auto px-6 py-16">
+      <!-- Header -->
+      <header class="text-center mb-12">
+        <h1 class="text-4xl font-semibold tracking-tight mb-4">Adolism Motion</h1>
+        <p class="text-gray-400 text-lg leading-relaxed max-w-md mx-auto">
+          I craft emotionally engaging and visually impactful videos.
+        </p>
+      </header>
+
+      <!-- Video Portfolio Card -->
+      <section class="bg-zinc-900 border border-zinc-800 rounded-2xl mb-10 p-6 shadow-sm">
+        <h2 class="text-xl font-medium mb-4 text-center">🎬 Video Portfolio</h2>
+        <div class="aspect-9-16 w-full rounded-xl overflow-hidden mb-4">
+          <iframe
+            class="w-full h-full"
+            src="https://www.youtube.com/embed/919qlPPPuP0"
+            title="Adolism Motion Portfolio"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+        <p class="text-gray-400 text-sm text-center">
+          Designed to connect. Built to engage. Created to move your audience.
+        </p>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 shadow-sm">
+        <h2 class="text-xl font-medium mb-4 text-center">📬 Let’s Connect</h2>
+        <div class="flex flex-col gap-3">
+          <!-- Email -->
+          <a
+            href="mailto:richzanadol751@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center justify-center gap-2 border border-white/20 text-white py-2.5 rounded-lg hover:bg-white hover:text-black transition-colors"
+          >
+            <i data-lucide="mail" class="w-5 h-5"></i>
+            richzanadol751@gmail.com
+          </a>
+
+          <!-- Instagram -->
+          <a
+            href="https://www.instagram.com/adolism_motion"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center justify-center gap-2 border border-white/20 text-white py-2.5 rounded-lg hover:bg-white hover:text-black transition-colors"
+          >
+            <i data-lucide="instagram" class="w-5 h-5"></i>
+            @adolism_motion
+          </a>
+
+          <!-- YouTube -->
+          <a
+            href="https://youtube.com/shorts/919qlPPPuP0?si=ZzLlcOxDKemVjYwn"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center justify-center gap-2 border border-white/20 text-white py-2.5 rounded-lg hover:bg-white hover:text-black transition-colors"
+          >
+            <i data-lucide="youtube" class="w-5 h-5"></i>
+            Watch on YouTube
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
